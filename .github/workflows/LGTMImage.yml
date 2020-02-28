@@ -11,4 +11,4 @@ jobs:
       - uses: ddradar/lgtm-action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          image-url: "https://www.dictionary.com/e/wp-content/uploads/2018/05/lhtm-300x300.jpg"
+          image-url: "https://i.imgflip.com/2c2vo7.jpg"
