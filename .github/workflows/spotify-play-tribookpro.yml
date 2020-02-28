@@ -15,8 +15,8 @@ jobs:
       uses: SvanBoxel/spotify-action@1.0.3
       with:
         # Spotify token: Visit https://developer.spotify.com/console/get-search-item/ and click "Get token"
-        token: BQAQNAIb-xI6IKkewl5wOO8b5TzIF5xvr7dDRy_8tEfirq-55sEmUQG3NhB7XXvFgdM5tq4c1qXzYdCNY1Nn09KYfal8eB8NiBoUmByBVQnSAmSAMHAX5Eb5dDJguT6VJeCibyJhErdQmcxepHER4g
+        token: BQD-OBYsbn9-dP0lz0vCBm-mX-83ptYWp49ELOTjhchnDtCWuLwkdbRg3zsHc_ptNBP0hY176dijGAuU3DyK8O0UtG0GvlVE4J3UKHRYHd6QWNc2GQiYU5wp28eaiA3i8lgWFmKuGHOsKeNjHcy1JzdlkiY
         # Song to search for
-        song: 0mUyMawtxj1CJ76kn9gIZK
+        song: Daniel Powter - Bad Day
         # Spotify device_id (https://developer.spotify.com/documentation/web-api/reference/player/get-a-users-available-devices/)
         device_id: b29e87a4f99813d09744e8b1d88089acdccfc60d
