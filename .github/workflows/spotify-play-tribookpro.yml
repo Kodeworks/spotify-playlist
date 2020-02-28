@@ -1,6 +1,6 @@
 name: Play Bad Day
 
-on: [push, issue_comment,pull_request]
+on: [push, issues, issue_comment, pull_request]
 
 jobs:
   build:
@@ -14,6 +14,7 @@ jobs:
     - name: Spotify - Play
       uses: SvanBoxel/spotify-action@1.0.3
       with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
         # Spotify token: Visit https://developer.spotify.com/console/get-search-item/ and click "Get token"
         token: BQDi7Dc4pE1lyZsBsWKiHbpu4kcNNNOjf2nFcTsfBwiPj3m33Q3nFBlt_uhrY0Emr3JTXr-Qwc_ryBgh-rVVvig86o2sYAswj3kPtS-WwPq56qXxUj-U_eUwlw82IaL5hn5SJnSBPFQpXuO3QPstp-2alwxl62w
         # Song to search for
