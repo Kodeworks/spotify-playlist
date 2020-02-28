@@ -1,0 +1,14 @@
+name: Branch name rules
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: deepakputhraya/action-branch-name@master
+      with:
+        allowed_prefixes: 'feature,stable,fix,tri' # All branches should start with the given prefix
+        ignore: master,develop # Ignore exactly matching branch names from convention
+        min_length: 5 # Min length of the branch name
+        max_length: 30 # Max length of the branch name
