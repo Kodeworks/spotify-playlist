@@ -1,0 +1,13 @@
+name: Clean Workspace
+on: [push, pull_request]
+
+jobs:
+  clean:    
+    runs-on: [ubuntu-latest] 
+    steps:
+      - uses: AutoModality/action-clean@v1.0.1
+  
+
+
+
+
