@@ -1,4 +1,4 @@
-name: Play Bad Day
+name: Play Vi E Konga
 
 on: [push, issues, issue_comment, pull_request]
 
@@ -18,6 +18,6 @@ jobs:
         # Spotify token: Visit https://developer.spotify.com/console/get-search-item/ and click "Get token"
         token: BQDi7Dc4pE1lyZsBsWKiHbpu4kcNNNOjf2nFcTsfBwiPj3m33Q3nFBlt_uhrY0Emr3JTXr-Qwc_ryBgh-rVVvig86o2sYAswj3kPtS-WwPq56qXxUj-U_eUwlw82IaL5hn5SJnSBPFQpXuO3QPstp-2alwxl62w
         # Song to search for
-        song: Daniel Powter - Bad Day
+        song: Vi E Konga
         # Spotify device_id (https://developer.spotify.com/documentation/web-api/reference/player/get-a-users-available-devices/)
         device_id: ${{ secrets.TRI_DEVICE_ID }}
