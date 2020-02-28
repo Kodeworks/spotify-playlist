@@ -1,2 +1,2 @@
-# spotify-playlist
+# Kodeworks Spotify Playlist
 The Ultimate Kodeworks Spotify Playlist
