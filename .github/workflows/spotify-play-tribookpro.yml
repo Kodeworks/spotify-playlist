@@ -1,6 +1,6 @@
 name: Play Bad Day
 
-on: [push, commit_comment,issue_comment,pull_request]
+on: [push, issue_comment,pull_request]
 
 jobs:
   build:
