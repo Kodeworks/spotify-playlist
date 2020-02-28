@@ -1,0 +1,22 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Spotify - Play
+      uses: SvanBoxel/spotify-action@1.0.3
+      with:
+        # Spotify token: Visit https://developer.spotify.com/console/get-search-item/ and click "Get token"
+        token: BQAQNAIb-xI6IKkewl5wOO8b5TzIF5xvr7dDRy_8tEfirq-55sEmUQG3NhB7XXvFgdM5tq4c1qXzYdCNY1Nn09KYfal8eB8NiBoUmByBVQnSAmSAMHAX5Eb5dDJguT6VJeCibyJhErdQmcxepHER4g
+        # Song to search for
+        song: 0mUyMawtxj1CJ76kn9gIZK
+        # Spotify device_id (https://developer.spotify.com/documentation/web-api/reference/player/get-a-users-available-devices/)
+        device_id: b29e87a4f99813d09744e8b1d88089acdccfc60d
