@@ -20,4 +20,4 @@ jobs:
         # Song to search for
         song: Daniel Powter - Bad Day
         # Spotify device_id (https://developer.spotify.com/documentation/web-api/reference/player/get-a-users-available-devices/)
-        device_id: b29e87a4f99813d09744e8b1d88089acdccfc60d
+        device_id: ${{ secrets.TRI_DEVICE_ID }}
