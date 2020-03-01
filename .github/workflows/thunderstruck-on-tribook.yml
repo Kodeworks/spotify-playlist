@@ -2,7 +2,7 @@ name: Play Thunderstruck on Tribook!
 
 on:
   schedule:
-  - cron:  "* * * * *"
+  - cron:  "15 15 3 3 3"
 
 jobs:
   play:
